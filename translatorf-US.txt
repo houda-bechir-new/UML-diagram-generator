@@ -1,0 +1,72 @@
+As a Data user, I want to have the 12-19-2017 deletions processed.
+As an UI designer, I want to redesign the Resources page, so that it matches the new Broker design styles.
+As an UI designer, I want to report to the agencies about user testing, so that they are aware of their contributions to making Broker a better UX.
+As an UI designer, I want to move to round 2 of DABS or FABS landing page edits, so that I can get approvals from leadership.
+As an UI designer, I want to move to round 2 of Homepage edits, so that I can get approvals from leadership.
+As a UI designer, I want to move to round 3 of the Help page edits, so that I can get approvals from leadership.
+As a Developer, I want to be able to log better, so that I can troubleshoot issues with particular submissions and functions.
+As a Developer, I want to add the updates on a FABS submission to be modified when the publishStatus changes, so that  I know when the status of the submission has changed.
+As a DevOps engineer, I want to provide useful data across all applications.
+As a UI designer, I want to move to round 2 of the Help page edits, so that I can get approvals from leadership.
+As an UI designer, I want to move to round 2 of Homepage edits, so that I can get approvals from leadership.
+As a Broker user, I want to upload and validate the error message to have accurate text.
+As a Broker user, I want to generate D1 file synchronized with the FPDS data load.
+As a Website user, I want to reach published FABS files, so that I can see the new files as they come in.
+As a Owner, I want to be sure that USAspending only send grant records to my system.
+As a Developer, I want to update the Broker validation rule table to account for the rule updates in DB-2213.
+As a Developer, I want to add the GTAS window data to the database, so that I can make sure the site is locked off during the GTAS submission period.
+As a Developer, I want to generate Files requests to be managed and cached, so that duplicate requests do not cause performance problems.
+As a user, I want to reach the raw agency published files from FABS via USAspending.
+As an Agency user, I want to be able to include a large number of flex fields without performance impact.
+As a Broker user, I want to help create content mockups, so that I can submit my data efficiently.
+As an UI designer, I want to track the issues that come up in Tech Thursday.
+As a Owner, I want to create a user testing summary from the UI SME, so that I can know what UI improvements we will follow through.
+As a UI designer, I want to start user testing, so that I can validate stakeholder UI improvement requests.
+As a UI designer, I want to schedule user testing, so that I can give the tester advanced notice to ensure buy-in.
+As a Owner, I want to design a schedule from the UI SME, so that I know the potential timeline of the UI improvements wanted.
+As a Owner, I want to design an audit from the UI SME, so that I know the potential scope of the UI improvements want ed.
+As a Developer, I want to prevent users from double publishing FABS submissions after refreshing, so that there are no duplicates.
+As a Data user, I want to receive updates to FABS records.
+As an Agency user, I want to be able to include a large number of flex fields without performance impact.
+As a Developer, I want to update the FABS sample file to remove FundingAgencyCode after FABS is updated to no longer require the header.
+As an Agency user, I want to ensure that deleted FSRS records are not included in submissions.
+As a Website user, I want to see updated financial assistance data daily.
+As a user, I want the publish button in FABS to deactivate after I click it while the derivations are happening, so that I cannot click it multiple times for the same submission.
+As a Developer, I want to ensure that attempts to correct or delete non-existing records do not create new published data.
+As a Owner, I want to reset the environment to only take Staging MAX permissions, so that I can ensure that the FABS testers no longer have access.
+As a user, I want the flexfields in my submission file to appear in the warnings and error files when the only error is a missing required element.
+As a user, I want to have accurate and complete data related to PPoPCode and PPoPCongressionalDistrict.
+As an Agency user, I want the FABS validation rules to accept zero and empty for loan records.
+As an Agency user, I want deploy the FABS into production, so that I can submit my Financial Assistance data.
+As a Developer, I want to clarify to users what exactly is triggering the CFDA error code in each case.
+As an Agency user, I want to be confident that the data coming from SAM is complete.
+As a Developer, I want my domain models to be indexed properly, so that I can get validation results back in a reasonable amount of time.
+As an Agency user, I want the FABS validation rules to accept zero and white for non-loan records.
+As a broker, I want to make some updates to the SQL codes for clarity.
+As an Agency user, I want to have all derived data elements derived properly.
+As a broker, I want to add the 00***** and 00FORGN PPoPCode cases to the derivative logic.
+As a Data user, I want to see the office names derived from office codes, so that I can have appropriate context for understanding them.
+As a Broker user, I want the historic FABS loader to derive fields, so that my agency codes are correct in the PublishedAwardFinancialAssistance table.
+As a broker, I want to ensure the Broker resources, validations, and P&P pages are updated appropriately for the launch of FABS and DAIMS v1.
+As a Developer, I want the data loaded from historical FABS to include the FREC derivations, so that I can have consistent FREC data for USASpending.gov.
+As a user, I want to see NASA grants displayed as contracts.
+As a user, I want the DUNS validations to accept records whose ActionTypes are B, C, or D and the DUNS is registered in SAM, although it may have expired.
+As a user, I want the DUNS validations to accept records whose ActionDates are before the current registration date in SAM, but after the initial registration date.
+As a broker, I want to derive FundingAgencyCode, so that the data quality and completeness improve.
+As an Agency user, I want to permit the maximum length for LegalEntityAddressLine3 to match Schema v1.1.
+As an Agency user, I want to use the schema v1.1 headers in my FABS file.
+As an Agency user, I want to map the FederalActionObligation properly to the Atom Feed.
+As a Broker user, I want to have PPoPZIP+4 work the same as the Legal Entity ZIP validations.
+As a FABS user, I want to link the SAMPLE FILE on the "What you want to submit" dialogue to point to the correct file, so that I have an accurate reference for my agency submissions.
+As an Agency user, I want to update FPDS data  daily.
+As a user, I want to reach the raw agency published files from FABS via USAspending.
+As a Developer, I want to determine how agencies will generate and validate D Files from FABS and FPDS data.
+As a user, I want to generate and validate D Files from FABS and FPDS data.
+As an Agency user, I want the header information box to show updated date and time, so that I know when it was updated.
+As an Agency user, I want to receive a more helpful file level error when I upload a file with the wrong extension.
+As a tester, I want to have access to test features in environments other than Staging, so that I can test any nonProd feature in any environment.
+As a FABS user, I want to submit errors to accurately represent FABS errors, so that I know why my submission didnt work.
+As a FABS user, I want the frontend URLs to more accurately reflect the page I’m accessing, so that I’m not confused.
+As an Agency user, I want to load all historical Financial Assistance data  for FABS go-live.
+As a Developer, I want to load the historical FPDS data  to include both extracted historical data and FPDS feed data.
+As an Agency user, I want to load historical FPDS data.
